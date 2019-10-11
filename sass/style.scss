@@ -126,6 +126,31 @@ body {
         }  
     }
  }
+ .footer {
+     width: 100%;
+     .row {
+        margin: auto;
+       
+     li {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-color: #153551;
+        text-align: center;
+        border-radius: 30px;
+        padding: 15px; 
+        margin: 20px;
+        transition: 0.4s;
+        &:hover {
+            transform: scale(1.1);
+        }
+        a {
+        color: white;
+        font-size: 1.5rem;  
+        } 
+     }
+    }
+ }
 
 
 
