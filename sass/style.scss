@@ -1,13 +1,106 @@
 
 
 
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
 
 
 .landing-page {
-    background-image: url(https://i.ibb.co/ygBjZyC/fashion-2208045-1920.jpg);
+    background-image: url('/images/background_image.png');
+    height: 80vh;
+    max-width: 1200px;
+    width: 100vw;
+    background-size: cover;
+    margin: 0 auto; 
+    position: relative;
+    border: 3px solid red;
+    .logo {
+        font-size: 2.5rem;
+        margin-left: 20px;
+        display: inline-block;
+        // background-color: purple;
+        color: yellow;
+    }
+    .nav {
+        // background-color: grey;
+        // display: inline-block;
+        float: right;
+        margin-top: 20px;
+        padding: 20px;
+        a {
+            
+            font-size: 1.1rem;
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            margin: 0 20px;   
+        }
+        a:hover {
+           border-bottom: 2px solid yellow; 
+           color: yellow;
+        }    
+    }
 }
-h2 {
-   color: red;
-    background: blue;
-    
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid red;
+    h4 {
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+    h1 {
+        font-size: 3.2rem;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .button {
+        text-decoration: none;
+        color: white;
+        background-color: rgba(230, 197, 15, 1);
+        font-size: 1.8rem;
+        padding: 15px;
+        border-radius: 10px;   
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
 }
+.services {
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    p {
+        text-align: center;
+        font-size: 1.3rem;
+        color: grey;
+    } 
+    .row div {
+        text-align: center;
+        border: 1px solid red;
+        i {
+            color: rgba(230, 197, 15, 1);
+            font-size: 2.5rem;
+            border: 3px solid rgba(230, 197, 15, 1);
+            border-radius: 50%;
+            padding: 20px;
+        }
+       
+    } 
+ }
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.landing-page {
+  background-image: url("/images/background_image.png");
+  height: 80vh;
+  max-width: 1200px;
+  width: 100vw;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  border: 3px solid red;
+}
+
+.landing-page .logo {
+  font-size: 2.5rem;
+  margin-left: 20px;
+  display: inline-block;
+  color: yellow;
+}
+
+.landing-page .nav {
+  float: right;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.landing-page .nav a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  margin: 0 20px;
+}
+
+.landing-page .nav a:hover {
+  border-bottom: 2px solid yellow;
+  color: yellow;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid red;
+}
+
+.title h4 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 3.2rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title .button {
+  text-decoration: none;
+  color: white;
+  background-color: #e6c50f;
+  font-size: 1.8rem;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.title .button:hover {
+  transform: scale(1.2);
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.services p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: grey;
+}
+
+.services .row div {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.services .row div i {
+  color: #e6c50f;
+  font-size: 2.5rem;
+  border: 3px solid #e6c50f;
+  border-radius: 50%;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
